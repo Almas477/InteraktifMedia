@@ -26,4 +26,29 @@ public class ButtonClick : MonoBehaviour
     {
         SceneManager.LoadSceneAsync("StartScene");
     }
+
+    public void JawabanA()
+    {
+        SceneManager.LoadSceneAsync("SceneBenar");
+    }
+
+    public void JawbanB()
+    {
+        SceneManager.LoadSceneAsync("SceneSalah");
+    }
+
+    public void JawbanC()
+    {
+        SceneManager.LoadSceneAsync("SceneSalah");
+    }
+
+    public void JawbanD()
+    {
+        SceneManager.LoadSceneAsync("SceneSalah");
+    }
+
+    public void Kembali()
+    {
+        SceneManager.LoadSceneAsync("StartScene");
+    }
 }
